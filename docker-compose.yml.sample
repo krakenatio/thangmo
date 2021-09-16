@@ -7,12 +7,12 @@ services:
     environment:
       REDISCLOUD_URL: "redis://redis:6379"
       BITLY_API_TOKEN: 
-      BITLY_ENABLED: "true"
-      HACKERNEWS_ENABLED: "true"
+      BITLY_ENABLED: "false"
+      HACKERNEWS_ENABLED: "false"
       HACKERNEWS_MIN_SCORE: 200
-      HACKERNEWS_YCOMBINATOR_LINK: "true"
+      HACKERNEWS_YCOMBINATOR_LINK: "false"
       TELEGRAM_API_TOKEN: 
-      TELEGRAM_CHANNEL: -1001240792667
+      TELEGRAM_CHANNEL: -1001367441676
       RSS_CONFIG_BASE64: 
 
   redis:
