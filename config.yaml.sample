@@ -3,24 +3,24 @@ retry:
   count: 3
 
 telegram:
-  channel: "@thangmo"
+  channel: ""
   api_token: ""
 
 bitly:
-  enabled: true
+  enabled: false
   api_token: ""
 
 hackernews:
-  enabled: true
+  enabled: false
   min_score: 200
-  ycombinator_link: true
+  ycombinator_link: false
 
 rss:
   - name: BBC Vietnamese
     url: "https://www.bbc.co.uk/vietnamese/index.xml"
   - name: StatusCode Weekly
     url: "https://weekly.statuscode.com/rss/"
-    telegram_channel: "-1001340592770"
+    telegram_channel: "-1001367441676"
 
 redis:
   host: localhost
